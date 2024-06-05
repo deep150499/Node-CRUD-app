@@ -8,6 +8,6 @@ module.exports = async (req,res) => {
         console.log("Request Body : ",  body)
     }
     catch(err){
-
+        console.log(err)
     }
 }
